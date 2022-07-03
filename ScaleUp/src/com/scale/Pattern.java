@@ -1,11 +1,18 @@
 package com.scale;
 
 import java.util.Scanner;
+//                **********
+//                ****  ****
+//                ***    ***
+//                **      **
+//                *        *
+//                pattern designed
+
 
 public class Pattern {
 public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
-	int n=5;//sc.nextInt();
+	int n=sc.nextInt();
 	int j=0;
 	for(int i=0;i<n;i++) {
 		for( j=1;j<=n-i;j++) {
